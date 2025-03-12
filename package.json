@@ -1,0 +1,29 @@
+{
+  "name": "newapi",
+  "version": "1.0.0",
+  "description": "Proyecto que implementa una API RESTFull modularizada con moduleES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairoArh/newAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jairoArh/newAPI/issues"
+  },
+  "homepage": "https://github.com/jairoArh/newAPI#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  }
+}

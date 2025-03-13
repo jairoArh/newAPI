@@ -1,5 +1,13 @@
+import Singer from "../models/Singer.js"
+
 async function getAll(req,res){
-  return res.status(200).json({'state':"OK",'data':[]})
+  try{
+    const data = await Singer.find({})
+    
+    return res.status(200).json({'state':"OK",'data':data})
+  }catch(err){
+    return res.status(200).json({})
+  }
 }
 
 async function findById(req,res){

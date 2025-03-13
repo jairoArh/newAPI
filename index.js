@@ -1,6 +1,7 @@
 import express from 'express'
 import 'dotenv/config'
 import routeSinger from './routes/singer.js'
+import './drivers/connect-db.mjs'
 
 const app = new express()
 
